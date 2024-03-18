@@ -12,7 +12,6 @@ function Nav() {
             <NavMessage/>
             <NavAvatar/>
         </ul>
-
     </nav>
   )
 }
