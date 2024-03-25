@@ -1,25 +1,19 @@
-import React , { useState } from 'react'
+import React , { useState , useEffect } from 'react'
 import './dashboard.css'
 import Card from './Card.jsx'
 import {Data} from '../api/info.jsx'
 import Reports from './Reports.jsx';
+import RecentSales from './RecentSales.jsx';
+import TopSelling from './TopSelling.jsx';
+import RecentActivity from './RecentActivity.jsx';
+import BudgetReport from './BudgetReport.jsx';
+import WebTraffic from './WebTraffic.jsx';
+import News from './News.jsx';
 
 
 function Dashboard() {
     const [cards] = useState(Data);
    console.log(cards.cards)
-    // const fetchData = () =>{
-    //     fetch('http://localhost:4000/cards')
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         setCards(data);
-    //     })
-    //     .catch(e => console.log(e.message));
-    // };
-
-    // useEffect(()=>{
-    //     fetchData();
-    // } , []);
   return (
    <section className="dasboard section">
       <div className="row">
@@ -31,9 +25,20 @@ function Dashboard() {
                 <div className="col-12">
                     <Reports/>
                 </div>
+                <div className="col-12">
+                     <RecentSales/>
+                </div>
+                <div className="col-12">
+                    <TopSelling/>
+                </div>
             </div>
           </div>
-          <div className="col-lg-4"></div>
+          <div className="col-lg-4">
+            <RecentActivity/>
+            <BudgetReport/>
+            <WebTraffic/>
+            <News/>
+          </div>
       </div>
    </section>
   )

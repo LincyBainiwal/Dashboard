@@ -28,35 +28,35 @@ export const Data = {
     "news": [
         {
             "_id": 1,
-            "img": "../assets/items/news-1.jpg",
-            "title": "Nihil blanititis at in nihil autem",
-            "subtitle":"Sit recusandae non aspernatur laboriosam.Quia enim eligendi sed ut harum",
+            "img": "../assests/news-1.jpeg",
+            "subtitle": "The US Air Force has conducted its first hypersonic cruise missile test ",
+            "title":"With eye on China, US tests hypersonic missile in Pacific for first time",
             "category": "abc"
         },
         {
             "_id": 2,
-            "img": "../assets/items/news-2.jpg",
+            "img": "../assests/product-1.jpeg",
             "title": "Quidem autem et impedit",
             "subtitle":"Sit recusandae non aspernatur laboriosam.Quia enim eligendi sed ut harum",
             "category": "abc"
         },
         {
             "_id": 3,
-            "img": "../assets/items/news-3.jpg",
+            "img": "../assests/product-3.avif",
             "title": " blanititis at in nihil autem",
             "subtitle":"Sit recusandae non aspernatur laboriosam.Quia enim eligendi sed ut harum",
             "category": "abc"
         },
         {
             "_id": 4,
-            "img": "../assets/items/news-4.jpg",
+            "img": "../assests/product-4.jpeg",
             "title": "Nihil blanititis at in nihil autem",
             "subtitle":"Sit recusandae non aspernatur laboriosam.Quia enim eligendi sed ut harum",
             "category": "abc"
         },
         {
             "_id": 5,
-            "img": "../assets/items/news-5.jpg",
+            "img": "../assests/product-5.jpg",
             "title": "Nihil blanititis at in nihil autem",
             "subtitle":"Sit recusandae non aspernatur laboriosam.Quia enim eligendi sed ut harum",
             "category": "abc"
@@ -65,35 +65,35 @@ export const Data = {
     "topselling": [
         {
         "_id":1,
-        "preview":"../assests/items/product-1.jpg",
+        "preview":"../assests/product-1.jpeg",
         "name":"ZAPATOZ Girls Black PU Block Heel Boots With Buckles",
         "price":64,
         "sold": 124
         },
         {
             "_id":2,
-            "preview":"../assests/items/product-2.jpg",
+            "preview":"../assests/product-2.jpg",
             "name":"Ut inventore ipsa voluptas nulla",
             "price":46,
             "sold": 98
         },
         {
             "_id":3,
-            "preview":"../assests/items/product-3.jpg",
+            "preview":"../assests/product-3.avif",
             "name":"Ut inventore ipsa voluptas nulla",
             "price":59,
             "sold": 74
         },
         {
             "_id":4,
-            "preview":"../assests/items/product-4.jpg",
+            "preview":"../assests/product-4.jpeg",
             "name":"Ut inventore ipsa voluptas nulla",
             "price":32,
             "sold": 63
         },
         {
             "_id":5,
-            "preview":"../assests/items/product-2.jpg",
+            "preview":"../assests/product-5.jpg",
             "name":"Ut inventore ipsa voluptas nulla",
             "price":79,
             "sold": 41
